@@ -74,8 +74,8 @@ MSBuild
 
 #addin nuget:?package=Cake.Xamarin //&version=2.0.1
 //#addin nuget:?package=Cake.Xamarin.Build //&version=3.0.6
-#addin nuget:?package=Cake.FileHelpers //&2.0.0
-#addin nuget::?package=Cake.Incubator //&version=1.6.0
+#addin nuget:https://api.nuget.org/v3/index.json?package=Cake.FileHelpers&version=2.0.0
+#addin nuget::?package=Cake.Incubator&version=1.6.0
 #addin nuget:?package=Xamarin.Nuget.Validator&version=1.1.1
 
 /*
